@@ -18,7 +18,7 @@ a {
     border-right: 2px solid grey;
 }
 
-a:hover {
+.mainmenu__item a:hover {
     color: green;
 }
 
@@ -45,7 +45,7 @@ a:hover {
 
 .mainmenu__item-submenu {
     position: absolute;
-    top: 40px;
+    top: 38px;
     left: -3px;
     display: none;
     padding: 10px 20px;
@@ -62,5 +62,6 @@ a:hover {
 }
 
 .mainmenu__item-submenu-item a {
+    /* запрещает перенос слов */
     white-space: nowrap;
 }

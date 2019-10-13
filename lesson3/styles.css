@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.block-list {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.block-list__item {
+    width: 50px;
+    height: 50px;
+}
+
+.block-list__item:nth-child(even) {
+    background: gold;
+}
+.block-list__item:nth-child(odd) {
+    background: black;
+}
+
+/* modifiers */
+.inline-block-mod .block-list__item {
+    display: inline-block;
+}
+
+/* .block-mod .block-list__item:first-child {
+    margin: 0 auto;
+} */
+
+.flex-mod {
+    display: flex;
+}
+
+/* ctr + / */
