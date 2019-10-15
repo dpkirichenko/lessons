@@ -16,7 +16,6 @@ ul {
 .mainmenu li {
     display: inline-block;
     border-right: 2px solid green;
-    right: 5px;
 }
 
 li:last-child {
@@ -40,7 +39,8 @@ a {
 .mainmenu__item-submenu {
     display: none;
     position: absolute;
-    left: -2px;
+    left: -6px;
+    top: 19px;
 }
 
 .mainmenu__item-submenu-item a {
