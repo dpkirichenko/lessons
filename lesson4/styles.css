@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background: #24292e;
+}
+
+.header__item {
+    margin-right: 16px;
+}
+
+.header__item:last-child {
+    margin-right: 0;
+}
+
+/* logo */
+
+.header__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.header__link img {
+    width: inherit;
+    filter: invert(100%);
+}
+
+/* search */
+
+.header-search {
+    width: 300px;
+}
+
+.header-search__input {
+    width: 100%;
+    padding: 4px 8px;
+    border: none;
+    background: #3f4448;
+    border-radius: 3px;
+
+    /* убирает выделение у input */
+    outline: none;
+}
+
