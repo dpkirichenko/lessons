@@ -61,23 +61,18 @@ a {
   color: hsla(0, 0%, 100%, 0.7);
 }
 
-.notification-link {
-    display: block;
-    width: 15px;
-    height: 15px;
+.header__notifications {
+    margin-left: auto;
 }
 
-.notification-link img {
-    width: inherit;
-    filter: invert(100%); 
+.notification-link svg {
+    fill: white;
 }
 
-.create-link {
-    display: block;
-    width: 12px;
-    height: 12px;
+.create-link svg {
+    fill: white;
 }
 
-.create-link img {
-    width: inherit;
-}
+svg:hover {
+    fill: hsla(0, 0%, 100%, 0.7);
+  }
