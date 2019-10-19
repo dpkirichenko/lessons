@@ -76,3 +76,14 @@ a {
 svg:hover {
     fill: hsla(0, 0%, 100%, 0.7);
   }
+
+.avatar-logo {
+    display: block;
+    width: 20px;
+    height: 20px; 
+}
+
+.avatar-logo img {
+    width: inherit;
+    border-radius: 3px;
+}
