@@ -106,11 +106,20 @@ a {
 }
 
 .header__notifications {
+    display: flex;
     margin-left: auto;
 }
 
-.notification-link svg {
-    fill: white;
+.notification-link {
+    display: block;
+    width: 14px;
+    height: 15px;
+}
+
+.notification-link img {
+    width: inherit;
+    filter: invert(100%);
+    background: white;
 }
 
 .header__create {
@@ -153,4 +162,7 @@ a {
 .avatar-logo img {
     width: inherit;
     border-radius: 3px;
+}
+
+.header__details-menu {
 }
