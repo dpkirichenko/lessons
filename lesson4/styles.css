@@ -120,25 +120,35 @@ a {
 .notification-link img {
     width: inherit;
     filter: invert(100%);
-    background: white;
 }
 
 img:hover {
-    background: red;
-    filter: invert(100%);
+    opacity: 0.5;
+}
+
+.header__create:hover {
+    opacity: 0.5;
+}
+
+.header__details-menu:hover {
+    opacity: 0.5;
 }
 
 .header__create {
-    display: block;
-}
-
-.create-link {
-    display: inherit;
+    display: flex;
     cursor: pointer;
 }
 
-.create-link svg {
-    fill: white;
+.create-link {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.create-link img {
+    width: 12px;
+    background: white;
+    filter: invert(100%);
 }
 
 .dropdown-caret {
@@ -161,6 +171,7 @@ img:hover {
 
 .header__details-menu {
     display: flex;
+    cursor: pointer;
 }
 
 .avatar-logo {
