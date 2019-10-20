@@ -108,6 +108,7 @@ a {
 .header__notifications {
     display: flex;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .notification-link {
@@ -120,6 +121,11 @@ a {
     width: inherit;
     filter: invert(100%);
     background: white;
+}
+
+img:hover {
+    background: red;
+    filter: invert(100%);
 }
 
 .header__create {
