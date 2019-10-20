@@ -113,13 +113,36 @@ a {
     fill: white;
 }
 
+.header__create {
+    display: block;
+}
+
+.create-link {
+    display: inherit;
+    cursor: pointer;
+}
+
 .create-link svg {
     fill: white;
 }
 
-svg:hover {
-    fill: hsla(0, 0%, 100%, 0.7);
-  }
+.dropdown-caret {
+    color: white;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    content: "";
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-right: 4px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.create-link:hover {
+    color: hsla(0, 0%, 100%, 0.7);
+}
 
 .avatar-logo {
     display: block;
