@@ -138,6 +138,7 @@ a {
     display: block;
     width: auto;
     height: auto;
+    cursor: pointer;
 }
 
 .create-link img {
@@ -182,8 +183,8 @@ a {
 .header__create-nested {
     position: relative;
     display: flex;
-    cursor: pointer;
 }
+
 .create-menu {
     position: absolute;
     display: block;
