@@ -215,3 +215,15 @@ a {
     white-space: nowrap;
     padding: 4px 8px 4px 16px;
 }
+
+.dropdown-caret__item {
+    position: absolute;
+    top: -16px;
+    right: 9px;
+    color: white;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 8px solid transparent;
+    border-bottom-color: rgb(255, 255, 255);
+}
